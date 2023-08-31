@@ -1,4 +1,4 @@
-package org.example;
+package org.example.FirstApplication;
 
 public class Stock {
     private String stockId;

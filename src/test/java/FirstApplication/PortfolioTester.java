@@ -1,13 +1,15 @@
-import org.example.Portfolio;
-import org.example.Stock;
-import org.example.StockService;
+package FirstApplication;
+
+import org.example.FirstApplication.Portfolio;
+import org.example.FirstApplication.Stock;
+import org.example.FirstApplication.StockService;
 import org.mockito.Mockito;
 
 import java.util.ArrayList;
 import java.util.List;
 
 // https://www.tutorialspoint.com/mockito/index.htm
-
+// Let's test the Portfolio class, by injecting in it a mock of stockservice. Mock will be created by Mockito.
 public class PortfolioTester {
 
     Portfolio portfolio;

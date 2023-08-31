@@ -1,4 +1,4 @@
-package org.example;
+package org.example.FirstApplication;
 import java.util.List;
 
 public class Portfolio {
